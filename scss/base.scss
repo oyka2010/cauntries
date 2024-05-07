@@ -18,6 +18,7 @@ header{
     background-color: #2B3844;
     box-shadow: 0px 2px 4px 0px #0000000E;
     padding: 24px 16px;
+    margin-bottom: 48px;
     .heder-list{
         display: flex;
         justify-content: space-between;
@@ -31,6 +32,35 @@ header{
         img{
             max-width: 108px;
         }
+    }
+}
+.promo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+    input{
+        outline: none;
+        background-color: #2B3844;
+        box-shadow: 0px 2px 9px 0px #0000000E;
+        border: 0px;
+        border-radius: 5px;
+        background-image: url(../img/search.svg);
+        background-repeat: no-repeat;
+        background-position: 30px 20px;
+        padding: 18px 270px 18px 74px;
+    }
+    .promo-section{
+        padding: 18px 77px 18px 24px;
+        background: #2B3844;
+        box-shadow: 0px 2px 9px 0px #0000000E;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        background-image: url(../img/icon.svg);
+        background-repeat: no-repeat;
+        background-position: 150px 22px;
     }
 }
 
