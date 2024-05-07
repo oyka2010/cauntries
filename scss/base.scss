@@ -64,9 +64,15 @@ header{
     }
 }
 main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 75px;
+    padding: 0px 20px;
     section{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 40px;
         .coutntries{
             display: flex; 
             flex-direction: column;
@@ -75,6 +81,7 @@ main{
             background-color: #2B3844;
             box-shadow: 0px 0px 7px 2px #00000008;
             padding-bottom: 46px;
+            margin: 0 auto;
             img{
                 margin-top: -10px;
                 margin-bottom: 24px;
