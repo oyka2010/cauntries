@@ -21,6 +21,7 @@ header {
   background-color: #2B3844;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.0549019608);
   padding: 24px 16px;
+  margin-bottom: 48px;
 }
 header .heder-list {
   display: flex;
@@ -35,6 +36,36 @@ header .heder-list h1 {
 }
 header .heder-list img {
   max-width: 108px;
+}
+
+.promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+.promo input {
+  outline: none;
+  background-color: #2B3844;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.0549019608);
+  border: 0px;
+  border-radius: 5px;
+  background-image: url(../img/search.svg);
+  background-repeat: no-repeat;
+  background-position: 30px 20px;
+  padding: 18px 270px 18px 74px;
+}
+.promo .promo-section {
+  padding: 18px 77px 18px 24px;
+  background: #2B3844;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.0549019608);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  background-image: url(../img/icon.svg);
+  background-repeat: no-repeat;
+  background-position: 150px 22px;
 }
 
 @media (max-width: 550px) {
